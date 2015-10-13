@@ -30,6 +30,7 @@ You can use php code `<?php do_action('klikbayi'); ?>` and add this single line 
 
 1. Part of setting screenshot-1.jpg.
 2. Part of shortcode generator screenshot-2.jpg.
+3. KlikBayi Widget screenshot-3.jpg.
 
 == Changelog ==
 

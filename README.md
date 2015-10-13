@@ -31,6 +31,9 @@ Screenshots
 2. Part of shortcode generator screenshot-2.jpg.
 ![screenshot 2](lib/assets/img/screenshot-2.jpg)
 
+3. KlikBayi Widget screenshot-3.jpg.
+![screenshot 3](lib/assets/img/screenshot-3.jpg)
+
 Changelog
 =========
 * 1.0 = October 13, 2015
