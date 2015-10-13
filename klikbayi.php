@@ -3,7 +3,7 @@
 Plugin Name: Klik Bayi
 Plugin URI: http://klikbayi.com
 Description:  Plugin for KlikBayi.Com affliliate. The killers plugin to selling KlikBayi.com's book.
-Version: 1.0.0
+Version: 1.0.1
 Author: Jevuska
 Author URI: http://www.jevuska.com
 License: GPL3
