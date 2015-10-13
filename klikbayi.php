@@ -56,10 +56,7 @@ if ( ! class_exists( 'Klik_Bayi' ) ):
 			
 			if ( ! defined( 'KLIKBAYI_PLUGIN_VERSION' ) )
 				define( 'KLIKBAYI_PLUGIN_VERSION', '1.0.0' );
-			
-			if ( ! defined( 'KLIKBAYI_PLUGIN_FILE' ) )
-				define( 'KLIKBAYI_PLUGIN_FILE', plugin_basename( __FILE__ ) );
-			
+
 			if ( ! defined( 'KLIKBAYI_PLUGIN_URL' ) )
 				define( 'KLIKBAYI_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 			
