@@ -9,7 +9,7 @@ License: GPLv3
 
 Description
 ===========
-Klik Bayi plugin is created to support http://klikbayi.com/ affiliaters to selling books with embeded form or button order into Wordpress site. Widget, Shortcode, and PHP Code for theme is available.
+Klik Bayi plugin is created to support http://klikbayi.com/ affiliaters to selling klikbayi.com's product with embeded form or button order into Wordpress site. Widget, Shortcode, and PHP Code for theme is available.
 
 Installation
 ============

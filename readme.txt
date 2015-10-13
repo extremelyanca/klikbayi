@@ -8,11 +8,11 @@ Stable tag: 4.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Plugin for klikbayi.com affilate. The easy way to selling klikbayi.com's book.
+Plugin for klikbayi.com affilate. The easy way to selling klikbayi.com's product.
 
 == Description ==
 
-Klik Bayi plugin is created to support affiliaters to selling books with embeded form or button order into Wordpress site. Widget, Shortcode, and PHP Code for theme is available.
+Klik Bayi plugin is created to support http://klikbayi.com/ affiliaters to selling klikbayi.com's product with embeded form or button order into Wordpress site. Widget, Shortcode, and PHP Code for theme is available.
 
 == Installation ==
 
