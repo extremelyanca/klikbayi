@@ -21,7 +21,7 @@ Frequently Asked Questions
 ==========================
 = How do I setup my WordPress theme to work with Klik Bayi plugin =
 
-You can use php code `<?php do_action('klikbayi'); ?>` and add this single line code after the_content code. Single or sitewide pages is welcome. More advance code is available.
+You can use php code ```<?php do_action('klikbayi'); ?>``` and add this single line code after the_content code. Single or sitewide pages is welcome. More advance code is available.
 
 Screenshots
 ===========
@@ -33,5 +33,5 @@ Screenshots
 
 Changelog
 =========
-## 1.0 = October 13, 2015
-*** First official release!
+* 1.0 = October 13, 2015
+  * First official release!
