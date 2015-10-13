@@ -1,5 +1,4 @@
 ---
-Title: Klik Bayi
 Contributors: Jevuska
 Donate link: http://www.jevuska.com/contact/
 Requires at least: 4.0
