@@ -95,9 +95,10 @@ if ( ! class_exists( 'Klik_Bayi' ) ):
 					$className = PucFactory::getLatestClassVersion('PucGitHubChecker');
 					$myUpdateChecker = new $className(
 						'https://github.com/Jevuska/klikbayi/',
-						__FILE__,
+						KLIKBAYI_PLUGIN_FILE,
 						'master'
 					);
+					
 					require_once( KLIKBAYI_PATH_LIB . 'inc/admin-function.php' );
 					require_once( KLIKBAYI_PATH_LIB . 'inc/class/class-klikbayi-admin.php' );
 					require_once( KLIKBAYI_PATH_LIB . 'inc/class/class-klikbayi-setup.php' );
