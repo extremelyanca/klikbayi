@@ -598,20 +598,10 @@ class KLIKBAYI_Admin
 		else :
 			foreach ( $rss_items as $item ) :
 				$r[] = 
-					sprintf(
-						wp_kses(
-							__( '<a href="%s" title="%s">%s</a>', 'klikbayi' ),
-							array(
-								'li' => array(),
-								'a'  => array(
-									'href'  => array(),
-									'title' => array()
-								) 
-							) 
-						),
-						esc_url( $item->get_permalink() ),
+					sprintf( '<a href="%s" title="%s">%s</a>',
+						$item->get_permalink(),
 						$item->get_date('j F Y | g:i a'),
-						esc_html( $item->get_title() )
+						$item->get_title()
 					);
 			endforeach;
 		endif;
@@ -701,7 +691,7 @@ class KLIKBAYI_Admin
 		);
 		wp_enqueue_script( 'postbox' );
 		wp_enqueue_script( 'klikbayi-script-handle', 
-			KLIKBAYI_PLUGIN_URL . 'lib/assets/js/jquery-klikbayi.js', 
+			KLIKBAYI_PLUGIN_URL . 'lib/assets/js/jquery-klikbayi.min.js', 
 			array(
 			 'wp-color-picker' 
 			), 

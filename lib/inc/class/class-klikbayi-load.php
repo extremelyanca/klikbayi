@@ -61,7 +61,7 @@ class KLIKBAYI_Load
 	{
 		if( ! is_admin() ) :
 			wp_enqueue_style( 'thickbox' );
-			wp_enqueue_script( 'klikbayi-js', KLIKBAYI_PLUGIN_URL . 'lib/assets/js/jquery-klikbayi-global.js', array(
+			wp_enqueue_script( 'klikbayi-js', KLIKBAYI_PLUGIN_URL . 'lib/assets/js/jquery-klikbayi-global.min.js', array(
 			 'jquery' 
 		), KLIKBAYI_PLUGIN_VERSION, true );
 		endif;

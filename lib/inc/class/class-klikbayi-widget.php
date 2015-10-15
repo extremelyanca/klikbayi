@@ -83,7 +83,7 @@ class KlikBayiWidget extends WP_Widget
 			$book_cover_src      = KLIKBAYI_PLUGIN_URL . 'lib/assets/img/klikbayi-cover-book.jpg';
 			$book_cover_img = sprintf( '<img src="%s">', $book_cover_src );
 
-			$title = __( 'KlikBayi.Com&#39;s Book', 'klikbayi' );
+			$title = __( 'KlikBayi.Com&#39;s Product', 'klikbayi' );
 			$textarea = $book_cover_img;
 			$post__in = '';
 			$post__not_in = '';
