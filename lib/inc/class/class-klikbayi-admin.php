@@ -383,7 +383,7 @@ class KLIKBAYI_Admin
 		$sc_desc  = __( 'Shortcode result: add into post area or text widget.', 'klikbayi' );
 		$php_desc = __( 'PHP Code result: add into your current theme. Use opening and closing php tags if this code not surrounding other php code.', 'klikbayi' );
 		
-		$shortcodetable = new Shortcode_Table();
+		$shortcodetable = new Klik_Bayi_Shortcode_Table();
         $shortcodetable->prepare_items();
 		$shortcodetable->display();
 	}
@@ -757,7 +757,7 @@ if( ! class_exists( 'WP_List_Table' ) ) {
 	require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
 }
 
-class Shortcode_Table extends WP_List_Table
+class Klik_Bayi_Shortcode_Table extends WP_List_Table
 {
 
 	public function prepare_items()
