@@ -15,7 +15,7 @@ Klik Bayi plugin is created to support http://klikbayi.com/ affiliaters to selli
 3. You can insert shortcodes and php code into administration posts area, widget or direct into your theme.
 
 ## Frequently Asked Questions
-= How do I setup my WordPress theme to work with Klik Bayi plugin =
+#### How do I setup my WordPress theme to work with Klik Bayi plugin =
 
 You can use php code ```<?php do_action('klikbayi'); ?>``` and add this single line code after the_content code. Single or sitewide pages is welcome. More advance code is available.
 
