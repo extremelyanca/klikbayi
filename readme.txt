@@ -1,7 +1,7 @@
 === KLIK BAYI ===
 Contributors: Jevuska
 Donate link: http://www.jevuska.com/contact/
-Tags: klikbayi, affiliate, form, order, onlineshop, kid, children, book
+Tags: widget, shortcode, sidebar, form, klikbayi, affiliate, order, onlineshop, kid, children, book, popup
 Requires at least: 4.0
 Tested up to: 4.3
 Stable tag: 4.3
