@@ -113,7 +113,7 @@ class KLIKBAYI_Admin
 		$this->tabs = array( 
 			'overview' => array(
 				'title' => __( 'Overview', 'klikbayi' ),
-				'content' => __( 'Overview', 'klikbayi' )
+				'content' => __( 'This plugin is especially designed to give KlikBayi.com&#39;s affiliates freedom to place the order button/form order (with its affiliate ID included) so the customer can order from their wordpress blog directly and they don&#39;t need to open KlikBayi.com main site anymore.<br>There are many option to place the order button/ form order from single/specific post to widget sidebar. Just make sure you give the necessary description needed for KlikBayi.com product&#39;s.', 'klikbayi' )
 			),
 			'troubleshooting' => array(
 				'title' => __( 'Troubleshooting', 'klikbayi' ), 
@@ -122,8 +122,7 @@ class KLIKBAYI_Admin
 			'faq' => array(
 				'title' => __( 'FAQ', 'klikbayi' ),
 				'content' => sprintf( 
-					__( 'FAQ', 'klikbayi' ),
-					''
+					__( '<h3>How do I setup my WordPress theme to work with Klik Bayi plugin?</h3><p>You can use php code &lt;?php do_action(&#39;klikbayi&#39;); ?&gt; and add this single line code after the_content code. Single or sitewide pages is welcome. More advance code is available.</p>', 'klikbayi' )
 				)
 			)
 		);
